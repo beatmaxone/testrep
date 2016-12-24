@@ -1,0 +1,79 @@
+body {	
+	background-image: url(../images/background.png);
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+#wrapper {
+	max-width: 960px;
+	margin: auto;
+}
+header {
+	padding: 20px 0;
+}
+form[name="email"] {
+	float: right;
+}
+nav a {
+	text-decoration: none;
+	hover: #c5541b;	
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 16px 'Roboto', sans-serif;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 15px 30px;
+	margin: 0;
+}
+
+.top-menu li:hover {
+	background: #c5541b;
+}
+
+.top-menu li.active {
+	background: #c5541b;
+	color: #fff;
+}
+
+.top-menu a {
+	color: #b2b2b2;
+}
+#heading {
+	
+	width: auto;
+	height: auto;
+	background: transparent url(../images/people_logo.png) no-repeat fixed;
+	background-size: 100%;	
+	background-attachment: inherit;
+	margin: 0 auto;
+}
+h1 {
+	display: inline-block;
+	color: #7e7e7e;
+	font: 40px 'Roboto', sans-serif;	
+	width: 100%;
+	height: 100%;
+	
+	text-align: center;
+}
+
+div.row1 {
+	float: left;
+	width: 80%;
+}
+div.row2 {
+	float: right;
+	width: 20%;
+}
