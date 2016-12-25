@@ -1,0 +1,14 @@
+{
+«firstName»: «Ïåòğ»,
+«lastName»: «Ïåòğîâ»,
+«birthday»: «01.05.1958?
+«address»: {
+«streetAddress»: «Ëåíèíãğàäñêèé ïğ., 25, êâ.5?,
+«city»: «Ìîñêâà»,
+«postalCode»: 125000
+},
+«phoneNumbers»: [
+"495 123-01-23",
+"916 777-00-77"
+]
+}

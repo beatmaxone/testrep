@@ -9,6 +9,7 @@ body {
 	max-width: 960px;
 	margin: auto;
 }
+
 header {
 	padding: 20px 0;
 }
@@ -35,6 +36,8 @@ nav li {
 .top-menu li {
 	display: inline-block;
 	padding: 15px 30px;
+	background-color: #ffffff;
+	background-size: cover;
 	margin: 0;
 }
 
@@ -48,32 +51,118 @@ nav li {
 }
 
 .top-menu a {
-	color: #b2b2b2;
+	color: #656161;
+}
+
+heading {
+	color: #dbdbdb;
+	font-size: 11px;
 }
 #heading {
 	
-	width: auto;
-	height: auto;
-	background: transparent url(../images/people_logo.png) no-repeat fixed;
-	background-size: 100%;	
-	background-attachment: inherit;
-	margin: 0 auto;
+	background-image: url(../images/people_logo.png);	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-width: 1440px;
+	margin: auto;
+	padding: 1px;
+	height: 200px;
 }
 h1 {
-	display: inline-block;
-	color: #7e7e7e;
-	font: 40px 'Roboto', sans-serif;	
-	width: 100%;
-	height: 100%;
 	
+	color: #fff;
+	font: 15px 'Roboto', sans-serif;	
+	height: 100%;
+	width: 100%;
 	text-align: center;
 }
 
-div.row1 {
+aside {
 	float: left;
-	width: 80%;
+	width: 250px;
+	padding-bottom: 100px;
 }
-div.row2 {
-	float: right;
-	width: 20%;
+.news {
+	width: 572px;
+	height: 115px;
+	background: url(../images/news_logo.png) no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin: 5px;
 }
+.google_news {
+	width: 572px;
+	height: 295px;
+	background: url(../images/google_text.png) no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin: 5px;
+}
+section {
+	margin-left: 780px;
+	padding-bottom: 300px;	
+}
+.advertisement {
+	width: 180px;
+	height: 610px;
+	background: url(../images/advertisement.png) no-repeat;
+	background-size: cover;
+	display: inline-block;
+	margin: 5px;	
+}
+
+#footer_bar {
+	
+	background-image: url(../images/footer.png);	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-width: 1440px;	
+	margin: auto;
+	padding: 10px 0;
+	height: 50px;
+}
+.footer_bar {
+	
+		
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-width: 960px;
+	color: #656161;
+	font: 13px 'Roboto', sans-serif;	
+	
+}
+.fb {
+
+}
+
+.facebook {
+	background-position: -30px 0;
+}
+
+.google-plus {
+	background-position: -60px 0;
+}
+
+.vimeo {
+	background-position: 0 0;
+}
+
+.youtube {
+	background-position: -16px 0;
+}
+
+.flickr {
+	background-position: -32px 0;
+}
+
+.instagram {
+	background-position: -48px 0;
+}
+
+.rss {
+	background-position: -64px 0;
+}
+
